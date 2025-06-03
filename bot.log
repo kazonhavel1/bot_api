@@ -1,0 +1,216 @@
+2025-06-03 09:57:22,423 - INFO - Obtendo um novo token
+2025-06-03 09:57:22,781 - INFO - Token obtido com sucesso.
+2025-06-03 09:57:22,782 - INFO - Pesquisando o ticket R7515...
+2025-06-03 09:57:23,025 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 09:57:23,026 - INFO - 127.0.0.1 - - [03/Jun/2025 09:57:23] "GET /ticket/R7515 HTTP/1.1" 200 -
+2025-06-03 09:57:51,884 - INFO - Pesquisando o ticket R7623...
+2025-06-03 09:57:52,117 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 09:57:52,118 - INFO - 127.0.0.1 - - [03/Jun/2025 09:57:52] "GET /ticket/R7623 HTTP/1.1" 200 -
+2025-06-03 09:57:54,758 - INFO - Pesquisando o ticket R7623...
+2025-06-03 09:57:55,618 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 09:57:55,619 - INFO - 127.0.0.1 - - [03/Jun/2025 09:57:55] "GET /ticket/R7623 HTTP/1.1" 200 -2025-06-03 10:01:54,977 - INFO - Pesquisando o ticket R7623...
+2025-06-03 10:01:55,186 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:01:55,187 - INFO - 127.0.0.1 - - [03/Jun/2025 10:01:55] "GET /ticket/R7623 HTTP/1.1" 200 -
+2025-06-03 10:14:58,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:14:58,213 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:15:00,713 - INFO - Obtendo um novo token
+2025-06-03 10:15:01,041 - INFO - Token obtido com sucesso.
+2025-06-03 10:15:01,041 - INFO - Pesquisando o ticket R7623...
+2025-06-03 10:15:01,296 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:15:01,298 - INFO - 127.0.0.1 - - [03/Jun/2025 10:15:01] "GET /ticket/R7623 HTTP/1.1" 200 -
+2025-06-03 10:36:41,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:36:41,095 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:37:10,278 - INFO - Obtendo um novo token
+2025-06-03 10:37:10,624 - INFO - Token obtido com sucesso.
+2025-06-03 10:37:10,624 - INFO - Pesquisando o ticket R7597...
+2025-06-03 10:37:10,870 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:37:11,218 - INFO - Consultando histórico do ticket
+2025-06-03 10:37:11,219 - INFO - Histórico disponibilizado.
+2025-06-03 10:37:11,222 - INFO - 127.0.0.1 - - [03/Jun/2025 10:37:11] "GET /ticket/R7597 HTTP/1.1" 200 -
+2025-06-03 10:37:12,701 - INFO - Pesquisando o ticket R7597...
+2025-06-03 10:37:12,927 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:37:13,308 - INFO - Consultando histórico do ticket
+2025-06-03 10:37:13,309 - INFO - Histórico disponibilizado.
+2025-06-03 10:37:13,311 - INFO - 127.0.0.1 - - [03/Jun/2025 10:37:13] "GET /ticket/R7597 HTTP/1.1" 200 -
+2025-06-03 10:39:21,411 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:39:21,412 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:40:01,720 - INFO - Obtendo um novo token
+2025-06-03 10:40:02,716 - INFO - Token obtido com sucesso.
+2025-06-03 10:40:02,716 - INFO - Pesquisando o ticket R7597...
+2025-06-03 10:40:03,430 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:40:04,076 - INFO - Consultando histórico do ticket
+2025-06-03 10:40:04,077 - INFO - Histórico disponibilizado.
+2025-06-03 10:40:04,079 - INFO - 127.0.0.1 - - [03/Jun/2025 10:40:04] "GET /ticket/R7597 HTTP/1.1" 200 -
+2025-06-03 10:40:55,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:40:55,694 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:41:06,580 - INFO - Obtendo um novo token
+2025-06-03 10:41:06,916 - INFO - Token obtido com sucesso.
+2025-06-03 10:41:06,917 - INFO - Pesquisando o ticket R7597...
+2025-06-03 10:41:07,570 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:41:09,041 - INFO - Consultando histórico do ticket
+2025-06-03 10:41:09,042 - INFO - Histórico disponibilizado.
+2025-06-03 10:41:09,043 - INFO - 127.0.0.1 - - [03/Jun/2025 10:41:09] "GET /ticket/R7597 HTTP/1.1" 200 -
+2025-06-03 10:41:59,378 - INFO - Pesquisando o ticket R75975...
+2025-06-03 10:42:00,187 - ERROR - Ticket R75975 não localizado.
+2025-06-03 10:42:00,822 - INFO - Consultando histórico do ticket
+2025-06-03 10:42:00,822 - INFO - Histórico disponibilizado.
+2025-06-03 10:42:00,823 - INFO - 127.0.0.1 - - [03/Jun/2025 10:42:00] "GET /ticket/R75975 HTTP/1.1" 200 -
+2025-06-03 10:42:02,284 - INFO - Pesquisando o ticket R75975...
+2025-06-03 10:42:02,525 - ERROR - Ticket R75975 não localizado.
+2025-06-03 10:42:02,861 - INFO - Consultando histórico do ticket
+2025-06-03 10:42:02,862 - INFO - Histórico disponibilizado.
+2025-06-03 10:42:02,864 - INFO - 127.0.0.1 - - [03/Jun/2025 10:42:02] "GET /ticket/R75975 HTTP/1.1" 200 -
+2025-06-03 10:42:10,786 - INFO - Pesquisando o ticket R73...
+2025-06-03 10:42:11,600 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:42:12,416 - INFO - Consultando histórico do ticket
+2025-06-03 10:42:12,417 - INFO - Histórico disponibilizado.
+2025-06-03 10:42:12,418 - INFO - 127.0.0.1 - - [03/Jun/2025 10:42:12] "GET /ticket/R73 HTTP/1.1" 200 -
+2025-06-03 10:42:14,072 - INFO - Pesquisando o ticket R73...
+2025-06-03 10:42:14,607 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:42:14,855 - INFO - Consultando histórico do ticket
+2025-06-03 10:42:14,855 - INFO - Histórico disponibilizado.
+2025-06-03 10:42:14,856 - INFO - 127.0.0.1 - - [03/Jun/2025 10:42:14] "GET /ticket/R73 HTTP/1.1" 200 -
+2025-06-03 10:42:23,060 - INFO - Pesquisando o ticket R734456...
+2025-06-03 10:42:23,279 - ERROR - Ticket R734456 não localizado.
+2025-06-03 10:42:23,532 - INFO - Consultando histórico do ticket
+2025-06-03 10:42:23,532 - INFO - Histórico disponibilizado.
+2025-06-03 10:42:23,533 - INFO - 127.0.0.1 - - [03/Jun/2025 10:42:23] "GET /ticket/R734456 HTTP/1.1" 200 -
+2025-06-03 10:42:25,368 - INFO - Pesquisando o ticket R734456...
+2025-06-03 10:42:26,154 - ERROR - Ticket R734456 não localizado.
+2025-06-03 10:42:27,022 - INFO - Consultando histórico do ticket
+2025-06-03 10:42:27,022 - INFO - Histórico disponibilizado.
+2025-06-03 10:42:27,023 - INFO - 127.0.0.1 - - [03/Jun/2025 10:42:27] "GET /ticket/R734456 HTTP/1.1" 200 -
+2025-06-03 10:42:28,981 - INFO - Pesquisando o ticket R734456...
+2025-06-03 10:42:29,164 - ERROR - Ticket R734456 não localizado.
+2025-06-03 10:42:29,420 - INFO - Consultando histórico do ticket
+2025-06-03 10:42:29,420 - INFO - Histórico disponibilizado.
+2025-06-03 10:42:29,421 - INFO - 127.0.0.1 - - [03/Jun/2025 10:42:29] "GET /ticket/R734456 HTTP/1.1" 200 -
+2025-06-03 10:45:12,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:45:12,670 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:45:18,355 - INFO - Obtendo um novo token
+2025-06-03 10:45:19,270 - INFO - Token obtido com sucesso.
+2025-06-03 10:45:19,270 - INFO - Pesquisando o ticket R734456...
+2025-06-03 10:45:19,831 - ERROR - Ticket R734456 não localizado.
+2025-06-03 10:45:49,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:45:49,651 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:45:53,429 - INFO - Obtendo um novo token
+2025-06-03 10:45:53,757 - INFO - Token obtido com sucesso.
+2025-06-03 10:45:53,757 - INFO - Pesquisando o ticket R7344...
+2025-06-03 10:45:53,977 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:45:54,237 - INFO - Consultando histórico do ticket
+2025-06-03 10:45:54,237 - INFO - Histórico disponibilizado.
+2025-06-03 10:45:54,238 - ERROR - Erro ao processar a requisição: unsupported operand type(s) for &: 'dict' and 'dict'
+2025-06-03 10:45:54,238 - INFO - 127.0.0.1 - - [03/Jun/2025 10:45:54] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 10:45:55,515 - INFO - Pesquisando o ticket R7344...
+2025-06-03 10:45:55,744 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:45:55,992 - INFO - Consultando histórico do ticket
+2025-06-03 10:45:55,992 - INFO - Histórico disponibilizado.
+2025-06-03 10:45:55,992 - ERROR - Erro ao processar a requisição: unsupported operand type(s) for &: 'dict' and 'dict'
+2025-06-03 10:45:55,992 - INFO - 127.0.0.1 - - [03/Jun/2025 10:45:55] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 10:45:57,325 - INFO - Pesquisando o ticket R7344...
+2025-06-03 10:45:57,618 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:45:57,881 - INFO - Consultando histórico do ticket
+2025-06-03 10:45:57,882 - INFO - Histórico disponibilizado.
+2025-06-03 10:45:57,882 - ERROR - Erro ao processar a requisição: unsupported operand type(s) for &: 'dict' and 'dict'
+2025-06-03 10:45:57,883 - INFO - 127.0.0.1 - - [03/Jun/2025 10:45:57] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 10:46:10,140 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:46:10,140 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:46:10,758 - INFO - Obtendo um novo token
+2025-06-03 10:46:11,116 - INFO - Token obtido com sucesso.
+2025-06-03 10:46:11,116 - INFO - Pesquisando o ticket R7344...
+2025-06-03 10:46:11,335 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:46:11,592 - INFO - Consultando histórico do ticket
+2025-06-03 10:46:11,592 - INFO - Histórico disponibilizado.
+2025-06-03 10:46:11,593 - INFO - 127.0.0.1 - - [03/Jun/2025 10:46:11] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 10:48:54,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:48:54,611 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:50:32,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:50:32,889 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:50:46,297 - INFO - Obtendo um novo token
+2025-06-03 10:50:46,590 - INFO - Token obtido com sucesso.
+2025-06-03 10:50:46,590 - INFO - Pesquisando o ticket R7344...
+2025-06-03 10:50:46,828 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:50:47,079 - INFO - Consultando histórico do ticket
+2025-06-03 10:50:47,079 - INFO - Histórico disponibilizado.
+2025-06-03 10:50:47,082 - ERROR - Erro ao processar a requisição: 'dict' object is not callable
+2025-06-03 10:50:47,083 - INFO - 127.0.0.1 - - [03/Jun/2025 10:50:47] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 10:52:00,428 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:52:00,428 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:52:04,140 - INFO - Obtendo um novo token
+2025-06-03 10:52:04,476 - INFO - Token obtido com sucesso.
+2025-06-03 10:52:04,477 - INFO - Pesquisando o ticket R7344...
+2025-06-03 10:52:04,773 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:52:05,376 - INFO - Consultando histórico do ticket
+2025-06-03 10:52:05,376 - INFO - Histórico disponibilizado.
+2025-06-03 10:52:05,381 - ERROR - Erro ao processar a requisição: 'dict' object is not callable
+2025-06-03 10:52:05,382 - INFO - 127.0.0.1 - - [03/Jun/2025 10:52:05] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 10:54:15,538 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:54:15,539 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:54:18,326 - INFO - Obtendo um novo token
+2025-06-03 10:54:20,016 - INFO - Token obtido com sucesso.
+2025-06-03 10:54:20,016 - INFO - Pesquisando o ticket R7344...
+2025-06-03 10:54:20,714 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 10:54:21,291 - INFO - Consultando histórico do ticket
+2025-06-03 10:54:21,291 - INFO - Histórico disponibilizado.
+2025-06-03 10:54:21,294 - INFO - 127.0.0.1 - - [03/Jun/2025 10:54:21] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 10:54:33,696 - INFO - Pesquisando o ticket R73443...
+2025-06-03 10:54:34,769 - ERROR - Ticket R73443 não localizado.
+2025-06-03 10:54:35,573 - INFO - Consultando histórico do ticket
+2025-06-03 10:54:35,573 - INFO - Histórico disponibilizado.
+2025-06-03 10:54:35,575 - INFO - 127.0.0.1 - - [03/Jun/2025 10:54:35] "GET /ticket/R73443 HTTP/1.1" 200 -
+2025-06-03 10:54:36,842 - INFO - Pesquisando o ticket R73443...
+2025-06-03 10:54:37,050 - ERROR - Ticket R73443 não localizado.
+2025-06-03 10:54:37,309 - INFO - Consultando histórico do ticket
+2025-06-03 10:54:37,309 - INFO - Histórico disponibilizado.
+2025-06-03 10:54:37,312 - INFO - 127.0.0.1 - - [03/Jun/2025 10:54:37] "GET /ticket/R73443 HTTP/1.1" 200 -
+2025-06-03 10:55:37,783 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:55:37,783 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:55:44,454 - INFO - Obtendo um novo token
+2025-06-03 10:55:45,417 - INFO - Token obtido com sucesso.
+2025-06-03 10:55:45,417 - INFO - Pesquisando o ticket R73443...
+2025-06-03 10:55:46,227 - ERROR - Ticket R73443 não localizado.
+2025-06-03 10:58:29,440 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:58:29,440 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:58:38,954 - INFO - Obtendo um novo token
+2025-06-03 10:58:39,847 - INFO - Token obtido com sucesso.
+2025-06-03 10:58:39,848 - INFO - Pesquisando o ticket R73443...
+2025-06-03 10:58:40,623 - ERROR - Ticket R73443 não localizado.
+2025-06-03 10:58:40,623 - INFO - 127.0.0.1 - - [03/Jun/2025 10:58:40] "GET /ticket/R73443 HTTP/1.1" 200 -
+2025-06-03 10:59:11,748 - INFO - Pesquisando o ticket R76234...
+2025-06-03 10:59:12,048 - ERROR - Ticket R76234 não localizado.
+2025-06-03 10:59:12,049 - INFO - 127.0.0.1 - - [03/Jun/2025 10:59:12] "GET /ticket/R76234 HTTP/1.1" 200 -
+2025-06-03 10:59:37,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 10:59:37,401 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 10:59:43,032 - INFO - Obtendo um novo token
+2025-06-03 10:59:43,475 - INFO - Token obtido com sucesso.
+2025-06-03 10:59:43,475 - INFO - Pesquisando o ticket R76234...
+2025-06-03 10:59:43,702 - ERROR - Ticket R76234 não localizado.
+2025-06-03 10:59:43,703 - INFO - 127.0.0.1 - - [03/Jun/2025 10:59:43] "GET /ticket/R76234 HTTP/1.1" 200 -
+2025-06-03 11:00:07,663 - INFO - Pesquisando o ticket R76234...
+2025-06-03 11:00:08,361 - ERROR - Ticket R76234 não localizado.
+2025-06-03 11:00:08,361 - INFO - 127.0.0.1 - - [03/Jun/2025 11:00:08] "GET /ticket/R76234 HTTP/1.1" 200 -
+2025-06-03 11:00:29,529 - INFO - Pesquisando o ticket R7623...
+2025-06-03 11:00:29,829 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 11:00:30,191 - INFO - Consultando histórico do ticket
+2025-06-03 11:00:30,191 - INFO - Histórico disponibilizado.
+2025-06-03 11:00:30,192 - INFO - 127.0.0.1 - - [03/Jun/2025 11:00:30] "GET /ticket/R7623 HTTP/1.1" 200 -
+2025-06-03 11:32:33,208 - INFO - Pesquisando o ticket R76232...
+2025-06-03 11:32:33,450 - ERROR - Ticket R76232 não localizado.
+2025-06-03 11:32:33,456 - INFO - 127.0.0.1 - - [03/Jun/2025 11:32:33] "GET /ticket/R76232 HTTP/1.1" 200 -
+2025-06-03 11:32:45,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 11:32:45,222 - INFO - [33mPress CTRL+C to quit[0m
