@@ -1,5 +1,4 @@
 import logging
-import concurrent.futures
 from flask import Flask, request, jsonify
 from dependence import sensr as s
 

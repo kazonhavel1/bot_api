@@ -37,16 +37,25 @@ class consultaApi():
             logging.info("Histórico disponibilizado.")
             data = response.json()
 
-            comments = data['comments']
-
-            ultima_interacao = comments[len(comments) - 1]
-            self.ticketId = None
-            return {
-                "email_responsavel" : f"{data['email_tech']}",
-                "ultima_interacao" : f"{ultima_interacao['description'].replace("<p>","").replace("</p>","")}",
-                "ultima_interacao_data" : f"{ultima_interacao['dt_cad']}",
-                "ultima_interacao_pessoa" : f"{ultima_interacao['name_create']}"
-            }
+            comments = data.get('comments', [])
+            email = data.get('email_tech') if data.get('email_tech') is not None else ""
+            
+            if comments:
+                ultima_interacao = comments[-1]
+                self.ticketId = None
+                return {
+                    "email_responsavel": email,
+                    "ultima_interacao": ultima_interacao['description'].replace("<p>", "").replace("</p>", ""),
+                    "ultima_interacao_data": ultima_interacao['dt_cad'],
+                    "ultima_interacao_pessoa": ultima_interacao['name_create']
+                }
+            else:
+                return{
+                    "email_responsavel": email,
+                    "ultima_interacao": "",
+                    "ultima_interacao_data": "",
+                    "ultima_interacao_pessoa": ""
+                }
         else:
             logging.error(f"Erro {response.status_code} ao consultar o histórico: {response.text}")
             return {
@@ -79,11 +88,12 @@ class consultaApi():
                 data = response.json()
                 logging.info("Pesquisa efetuada com sucesso.")
                 self.ticketId = data[0]["id_tickets"]
+                responsavel = data[0]['grid_service_technician'] if data[0]['grid_service_technician'] is not None else ""
                 return {
                     "solicitante" : f"{data[0]['grid_user']}",
                     "status"  : f"{data[0]['grid_waiting']}",
                     "equipe" : f"{data[0]['grid_tech_group']}",
-                    "responsavel" : f"{data[0]['grid_service_technician']}"
+                    "responsavel" : f"{responsavel}"
                 }
             else:
                 logging.error(f"Erro {response.status_code} ao efetuar a requisição no ticket {ticket}: {response.text}")

@@ -214,3 +214,158 @@
 2025-06-03 11:32:45,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:8000
 2025-06-03 11:32:45,222 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 14:31:31,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 14:31:31,076 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 14:31:35,784 - INFO - Obtendo um novo token
+2025-06-03 14:31:36,145 - INFO - Token obtido com sucesso.
+2025-06-03 14:31:36,146 - INFO - Pesquisando o ticket R7344...
+2025-06-03 14:31:36,415 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 14:31:36,666 - INFO - Consultando histórico do ticket
+2025-06-03 14:31:36,666 - INFO - Histórico disponibilizado.
+2025-06-03 14:31:36,668 - INFO - 127.0.0.1 - - [03/Jun/2025 14:31:36] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-03 15:46:35,396 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 15:46:35,397 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 15:46:37,168 - INFO - Obtendo um novo token
+2025-06-03 15:46:38,063 - INFO - Token obtido com sucesso.
+2025-06-03 15:46:38,064 - INFO - Pesquisando o ticket R7373...
+2025-06-03 15:46:38,870 - ERROR - Ticket R7373 não localizado.
+2025-06-03 15:46:38,871 - INFO - 127.0.0.1 - - [03/Jun/2025 15:46:38] "[31m[1mGET /ticket/R7373 HTTP/1.1[0m" 400 -
+2025-06-03 15:46:44,129 - INFO - Pesquisando o ticket R7272...
+2025-06-03 15:46:44,370 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 15:46:44,606 - INFO - Consultando histórico do ticket
+2025-06-03 15:46:44,606 - INFO - Histórico disponibilizado.
+2025-06-03 15:46:44,608 - INFO - 127.0.0.1 - - [03/Jun/2025 15:46:44] "GET /ticket/R7272 HTTP/1.1" 200 -
+2025-06-03 15:47:00,580 - INFO - Pesquisando o ticket 7784...
+2025-06-03 15:47:00,802 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 15:47:01,155 - INFO - Consultando histórico do ticket
+2025-06-03 15:47:01,156 - INFO - Histórico disponibilizado.
+2025-06-03 15:47:01,159 - ERROR - Erro ao processar a requisição: list index out of range
+2025-06-03 15:47:01,159 - INFO - 127.0.0.1 - - [03/Jun/2025 15:47:01] "[35m[1mGET /ticket/7784 HTTP/1.1[0m" 500 -
+2025-06-03 15:47:53,440 - INFO - Pesquisando o ticket R7781...
+2025-06-03 15:47:53,681 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 15:47:54,018 - INFO - Consultando histórico do ticket
+2025-06-03 15:47:54,019 - INFO - Histórico disponibilizado.
+2025-06-03 15:47:54,020 - ERROR - Erro ao processar a requisição: list index out of range
+2025-06-03 15:47:54,021 - INFO - 127.0.0.1 - - [03/Jun/2025 15:47:54] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-03 15:56:27,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 15:56:27,564 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 15:56:41,743 - INFO - Obtendo um novo token
+2025-06-03 15:56:42,076 - INFO - Token obtido com sucesso.
+2025-06-03 15:56:42,077 - INFO - Pesquisando o ticket R7781...
+2025-06-03 15:56:42,280 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 15:56:42,707 - INFO - Consultando histórico do ticket
+2025-06-03 15:56:42,708 - INFO - Histórico disponibilizado.
+2025-06-03 15:56:42,711 - ERROR - Erro ao processar a requisição: 'NoneType' object has no attribute 'replace'
+2025-06-03 15:56:42,713 - INFO - 127.0.0.1 - - [03/Jun/2025 15:56:42] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-03 15:56:44,356 - INFO - Pesquisando o ticket R7781...
+2025-06-03 15:56:44,547 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 15:56:44,956 - INFO - Consultando histórico do ticket
+2025-06-03 15:56:44,956 - INFO - Histórico disponibilizado.
+2025-06-03 15:56:44,959 - ERROR - Erro ao processar a requisição: 'NoneType' object has no attribute 'replace'
+2025-06-03 15:56:44,960 - INFO - 127.0.0.1 - - [03/Jun/2025 15:56:44] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-03 15:56:45,230 - INFO - Pesquisando o ticket R7781...
+2025-06-03 15:56:45,663 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 15:56:46,085 - INFO - Consultando histórico do ticket
+2025-06-03 15:56:46,086 - INFO - Histórico disponibilizado.
+2025-06-03 15:56:46,089 - ERROR - Erro ao processar a requisição: 'NoneType' object has no attribute 'replace'
+2025-06-03 15:56:46,089 - INFO - 127.0.0.1 - - [03/Jun/2025 15:56:46] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-03 15:57:02,749 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 15:57:02,749 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 15:57:10,697 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 15:57:10,698 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 15:57:14,585 - INFO - Obtendo um novo token
+2025-06-03 15:57:14,899 - INFO - Token obtido com sucesso.
+2025-06-03 15:57:14,900 - INFO - Pesquisando o ticket R7781...
+2025-06-03 15:57:15,121 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 15:57:16,917 - INFO - Consultando histórico do ticket
+2025-06-03 15:57:16,918 - INFO - Histórico disponibilizado.
+2025-06-03 15:57:16,922 - INFO - 127.0.0.1 - - [03/Jun/2025 15:57:16] "GET /ticket/R7781 HTTP/1.1" 200 -
+2025-06-03 16:00:32,389 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 16:00:32,389 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 16:00:34,411 - INFO - Obtendo um novo token
+2025-06-03 16:00:34,950 - INFO - Token obtido com sucesso.
+2025-06-03 16:00:34,951 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:00:35,173 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:00:35,535 - INFO - Consultando histórico do ticket
+2025-06-03 16:00:35,535 - INFO - Histórico disponibilizado.
+2025-06-03 16:00:35,538 - INFO - 127.0.0.1 - - [03/Jun/2025 16:00:35] "GET /ticket/R7781 HTTP/1.1" 200 -
+2025-06-03 16:01:12,842 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 16:01:12,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 16:01:18,413 - INFO - Obtendo um novo token
+2025-06-03 16:01:18,786 - INFO - Token obtido com sucesso.
+2025-06-03 16:01:18,786 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:01:19,053 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:01:19,418 - INFO - Consultando histórico do ticket
+2025-06-03 16:01:19,418 - INFO - Histórico disponibilizado.
+2025-06-03 16:01:19,419 - INFO - 127.0.0.1 - - [03/Jun/2025 16:01:19] "GET /ticket/R7781 HTTP/1.1" 200 -
+2025-06-03 16:01:46,631 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 16:01:46,631 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 16:01:50,022 - INFO - Obtendo um novo token
+2025-06-03 16:01:50,380 - INFO - Token obtido com sucesso.
+2025-06-03 16:01:50,380 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:01:50,604 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:01:50,912 - INFO - Consultando histórico do ticket
+2025-06-03 16:01:50,913 - INFO - Histórico disponibilizado.
+2025-06-03 16:01:50,917 - INFO - 127.0.0.1 - - [03/Jun/2025 16:01:50] "GET /ticket/R7781 HTTP/1.1" 200 -
+2025-06-03 16:01:53,937 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:01:54,755 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:01:55,949 - INFO - Consultando histórico do ticket
+2025-06-03 16:01:55,950 - INFO - Histórico disponibilizado.
+2025-06-03 16:01:55,951 - INFO - 127.0.0.1 - - [03/Jun/2025 16:01:55] "GET /ticket/R7781 HTTP/1.1" 200 -
+2025-06-03 16:02:18,501 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 16:02:18,501 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 16:02:21,843 - INFO - Obtendo um novo token
+2025-06-03 16:02:23,050 - INFO - Token obtido com sucesso.
+2025-06-03 16:02:23,050 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:02:23,816 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:02:25,335 - INFO - Consultando histórico do ticket
+2025-06-03 16:02:25,337 - INFO - Histórico disponibilizado.
+2025-06-03 16:02:25,339 - INFO - 127.0.0.1 - - [03/Jun/2025 16:02:25] "GET /ticket/R7781 HTTP/1.1" 200 -
+2025-06-03 16:02:56,782 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 16:02:56,782 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 16:02:58,805 - INFO - Obtendo um novo token
+2025-06-03 16:02:59,144 - INFO - Token obtido com sucesso.
+2025-06-03 16:02:59,145 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:02:59,401 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:02:59,810 - INFO - Consultando histórico do ticket
+2025-06-03 16:02:59,811 - INFO - Histórico disponibilizado.
+2025-06-03 16:02:59,817 - ERROR - Erro ao processar a requisição: cannot access local variable 'email' where it is not associated with a value
+2025-06-03 16:02:59,818 - INFO - 127.0.0.1 - - [03/Jun/2025 16:02:59] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-03 16:03:23,150 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 16:03:23,150 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 16:03:24,703 - INFO - Obtendo um novo token
+2025-06-03 16:03:25,131 - INFO - Token obtido com sucesso.
+2025-06-03 16:03:25,132 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:03:25,351 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:03:25,691 - INFO - Consultando histórico do ticket
+2025-06-03 16:03:25,692 - INFO - Histórico disponibilizado.
+2025-06-03 16:03:25,693 - ERROR - Erro ao processar a requisição: cannot access local variable 'email' where it is not associated with a value
+2025-06-03 16:03:25,693 - INFO - 127.0.0.1 - - [03/Jun/2025 16:03:25] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-03 16:04:37,653 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-03 16:04:37,653 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 16:04:39,937 - INFO - Obtendo um novo token
+2025-06-03 16:04:40,244 - INFO - Token obtido com sucesso.
+2025-06-03 16:04:40,244 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:04:40,461 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:04:41,851 - INFO - Consultando histórico do ticket
+2025-06-03 16:04:41,852 - INFO - Histórico disponibilizado.
+2025-06-03 16:04:41,854 - ERROR - Erro ao processar a requisição: cannot access local variable 'email' where it is not associated with a value
+2025-06-03 16:04:41,855 - INFO - 127.0.0.1 - - [03/Jun/2025 16:04:41] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-03 16:05:56,969 - INFO - Pesquisando o ticket R7781...
+2025-06-03 16:05:57,181 - INFO - Pesquisa efetuada com sucesso.
+2025-06-03 16:05:57,530 - INFO - Consultando histórico do ticket
+2025-06-03 16:05:57,531 - INFO - Histórico disponibilizado.
+2025-06-03 16:05:57,532 - ERROR - Erro ao processar a requisição: cannot access local variable 'email' where it is not associated with a value
+2025-06-03 16:05:57,532 - INFO - 127.0.0.1 - - [03/Jun/2025 16:05:57] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
