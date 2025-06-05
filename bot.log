@@ -369,3 +369,176 @@
 2025-06-03 16:05:57,531 - INFO - Histórico disponibilizado.
 2025-06-03 16:05:57,532 - ERROR - Erro ao processar a requisição: cannot access local variable 'email' where it is not associated with a value
 2025-06-03 16:05:57,532 - INFO - 127.0.0.1 - - [03/Jun/2025 16:05:57] "[35m[1mGET /ticket/R7781 HTTP/1.1[0m" 500 -
+2025-06-04 21:19:47,974 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:19:47,975 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:20:10,586 - INFO - Obtendo um novo token
+2025-06-04 21:20:10,605 - ERROR - Erro ao processar a requisição: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-06-04 21:20:10,608 - INFO - 127.0.0.1 - - [04/Jun/2025 21:20:10] "[35m[1mGET /ticket/R7906 HTTP/1.1[0m" 500 -
+2025-06-04 21:20:10,784 - INFO - 127.0.0.1 - - [04/Jun/2025 21:20:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-04 21:20:21,409 - INFO - Obtendo um novo token
+2025-06-04 21:20:21,413 - ERROR - Erro ao processar a requisição: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-06-04 21:20:21,414 - INFO - 127.0.0.1 - - [04/Jun/2025 21:20:21] "[35m[1mGET /ticket/R7906 HTTP/1.1[0m" 500 -
+2025-06-04 21:20:21,448 - INFO - Obtendo um novo token
+2025-06-04 21:20:21,452 - ERROR - Erro ao processar a requisição: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?
+2025-06-04 21:20:21,454 - INFO - 127.0.0.1 - - [04/Jun/2025 21:20:21] "[35m[1mGET /ticket/R7906 HTTP/1.1[0m" 500 -
+2025-06-04 21:22:45,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:22:45,805 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:22:50,853 - INFO - Obtendo um novo token
+2025-06-04 21:22:51,556 - ERROR - Erro 404 ao buscar o token. <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /loginAdd%20commentMore%20actions</pre>
+</body>
+</html>
+
+2025-06-04 21:22:51,557 - INFO - 127.0.0.1 - - [04/Jun/2025 21:22:51] "[31m[1mGET /ticket/R7906 HTTP/1.1[0m" 400 -
+2025-06-04 21:23:44,605 - INFO - Obtendo um novo token
+2025-06-04 21:23:45,380 - ERROR - Erro 404 ao buscar o token. <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /loginAdd%20commentMore%20actions</pre>
+</body>
+</html>
+
+2025-06-04 21:23:45,381 - INFO - 127.0.0.1 - - [04/Jun/2025 21:23:45] "[31m[1mGET /ticket/R7906 HTTP/1.1[0m" 400 -
+2025-06-04 21:24:15,988 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:24:15,988 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:24:21,381 - INFO - Obtendo um novo token
+2025-06-04 21:24:22,517 - ERROR - Erro 404 ao buscar o token. <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /loginAdd</pre>
+</body>
+</html>
+
+2025-06-04 21:24:22,519 - INFO - 127.0.0.1 - - [04/Jun/2025 21:24:22] "[31m[1mGET /ticket/R7906 HTTP/1.1[0m" 400 -
+2025-06-04 21:25:06,835 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:25:06,837 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:25:13,467 - INFO - Obtendo um novo token
+2025-06-04 21:25:13,943 - INFO - Token obtido com sucesso.
+2025-06-04 21:25:13,944 - INFO - Pesquisando o ticket R7906...
+2025-06-04 21:25:14,424 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:25:15,838 - INFO - Consultando histórico do ticket
+2025-06-04 21:25:15,838 - INFO - Histórico disponibilizado.
+2025-06-04 21:25:15,839 - INFO - Formatando resolução
+2025-06-04 21:25:15,846 - INFO - 127.0.0.1 - - [04/Jun/2025 21:25:15] "GET /ticket/R7906 HTTP/1.1" 200 -
+2025-06-04 21:26:11,650 - INFO - Pesquisando o ticket R7272...
+2025-06-04 21:26:12,067 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:26:12,491 - INFO - Consultando histórico do ticket
+2025-06-04 21:26:12,491 - INFO - Histórico disponibilizado.
+2025-06-04 21:26:12,493 - INFO - 127.0.0.1 - - [04/Jun/2025 21:26:12] "GET /ticket/R7272 HTTP/1.1" 200 -
+2025-06-04 21:26:14,276 - INFO - Pesquisando o ticket R7272...
+2025-06-04 21:26:15,733 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:26:17,559 - INFO - Consultando histórico do ticket
+2025-06-04 21:26:17,560 - INFO - Histórico disponibilizado.
+2025-06-04 21:26:17,561 - INFO - 127.0.0.1 - - [04/Jun/2025 21:26:17] "GET /ticket/R7272 HTTP/1.1" 200 -
+2025-06-04 21:26:55,372 - INFO - Pesquisando o ticket R7906...
+2025-06-04 21:26:55,689 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:26:56,213 - INFO - Consultando histórico do ticket
+2025-06-04 21:26:56,213 - INFO - Histórico disponibilizado.
+2025-06-04 21:26:56,214 - INFO - Formatando resolução
+2025-06-04 21:26:56,217 - INFO - 127.0.0.1 - - [04/Jun/2025 21:26:56] "GET /ticket/R7906 HTTP/1.1" 200 -
+2025-06-04 21:27:52,012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:27:52,012 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:27:52,760 - INFO - Obtendo um novo token
+2025-06-04 21:27:53,378 - INFO - Token obtido com sucesso.
+2025-06-04 21:27:53,379 - INFO - Pesquisando o ticket R7906...
+2025-06-04 21:27:53,753 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:27:54,229 - INFO - Consultando histórico do ticket
+2025-06-04 21:27:54,229 - INFO - Histórico disponibilizado.
+2025-06-04 21:27:54,230 - INFO - Formatando resolução
+2025-06-04 21:27:54,237 - INFO - 127.0.0.1 - - [04/Jun/2025 21:27:54] "GET /ticket/R7906 HTTP/1.1" 200 -
+2025-06-04 21:31:00,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:31:00,031 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:31:05,982 - INFO - Obtendo um novo token
+2025-06-04 21:31:06,483 - INFO - Token obtido com sucesso.
+2025-06-04 21:31:06,484 - INFO - Pesquisando o ticket R7906...
+2025-06-04 21:31:06,838 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:31:07,080 - INFO - Consultando histórico do ticket
+2025-06-04 21:31:07,080 - INFO - Histórico disponibilizado.
+2025-06-04 21:31:07,081 - INFO - Formatando resolução
+2025-06-04 21:31:07,086 - INFO - 127.0.0.1 - - [04/Jun/2025 21:31:07] "GET /ticket/R7906 HTTP/1.1" 200 -
+2025-06-04 21:33:18,271 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:33:18,271 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:33:26,732 - INFO - Obtendo um novo token
+2025-06-04 21:33:27,266 - INFO - Token obtido com sucesso.
+2025-06-04 21:33:27,267 - INFO - Pesquisando o ticket R7906...
+2025-06-04 21:33:27,710 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:33:28,212 - INFO - Consultando histórico do ticket
+2025-06-04 21:33:28,213 - INFO - Histórico disponibilizado.
+2025-06-04 21:33:28,214 - INFO - Formatando resolução
+2025-06-04 21:33:28,222 - INFO - 127.0.0.1 - - [04/Jun/2025 21:33:28] "GET /ticket/R7906 HTTP/1.1" 200 -
+2025-06-04 21:35:27,719 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:35:27,719 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:35:32,987 - INFO - Obtendo um novo token
+2025-06-04 21:35:34,535 - INFO - Token obtido com sucesso.
+2025-06-04 21:35:34,535 - INFO - Pesquisando o ticket R7906...
+2025-06-04 21:35:34,853 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:35:35,217 - INFO - Consultando histórico do ticket
+2025-06-04 21:35:35,217 - INFO - Histórico disponibilizado.
+2025-06-04 21:35:35,218 - INFO - Formatando resolução
+2025-06-04 21:35:35,226 - INFO - 127.0.0.1 - - [04/Jun/2025 21:35:35] "GET /ticket/R7906 HTTP/1.1" 200 -
+2025-06-04 21:36:21,731 - INFO - Pesquisando o ticket R7272...
+2025-06-04 21:36:22,564 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:36:22,953 - INFO - Consultando histórico do ticket
+2025-06-04 21:36:22,953 - INFO - Histórico disponibilizado.
+2025-06-04 21:36:22,955 - INFO - 127.0.0.1 - - [04/Jun/2025 21:36:22] "GET /ticket/R7272 HTTP/1.1" 200 -
+2025-06-04 21:36:38,010 - INFO - Pesquisando o ticket R7273...
+2025-06-04 21:36:38,447 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:36:38,900 - INFO - Consultando histórico do ticket
+2025-06-04 21:36:38,900 - INFO - Histórico disponibilizado.
+2025-06-04 21:36:38,902 - INFO - 127.0.0.1 - - [04/Jun/2025 21:36:38] "GET /ticket/R7273 HTTP/1.1" 200 -
+2025-06-04 21:36:43,853 - INFO - Pesquisando o ticket R7273...
+2025-06-04 21:36:45,281 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:36:46,795 - INFO - Consultando histórico do ticket
+2025-06-04 21:36:46,795 - INFO - Histórico disponibilizado.
+2025-06-04 21:36:46,797 - INFO - 127.0.0.1 - - [04/Jun/2025 21:36:46] "GET /ticket/R7273 HTTP/1.1" 200 -
+2025-06-04 21:38:54,597 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-04 21:38:54,597 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 21:39:02,834 - INFO - Obtendo um novo token
+2025-06-04 21:39:03,543 - INFO - Token obtido com sucesso.
+2025-06-04 21:39:03,543 - INFO - Pesquisando o ticket R7273...
+2025-06-04 21:39:04,668 - INFO - Pesquisa efetuada com sucesso.
+2025-06-04 21:39:05,304 - INFO - Consultando histórico do ticket
+2025-06-04 21:39:05,305 - INFO - Histórico disponibilizado.
+2025-06-04 21:39:05,305 - INFO - Formatando resolução
+2025-06-04 21:39:05,315 - INFO - 127.0.0.1 - - [04/Jun/2025 21:39:05] "GET /ticket/R7273 HTTP/1.1" 200 -
+2025-06-05 07:26:39,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-05 07:26:39,676 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 07:26:51,376 - INFO - Obtendo um novo token
+2025-06-05 07:26:52,324 - INFO - Token obtido com sucesso.
+2025-06-05 07:26:52,324 - INFO - Pesquisando o ticket R7856...
+2025-06-05 07:26:52,733 - INFO - Pesquisa efetuada com sucesso.
+2025-06-05 07:26:53,499 - INFO - Consultando histórico do ticket
+2025-06-05 07:26:53,499 - INFO - Histórico disponibilizado.
+2025-06-05 07:26:53,499 - INFO - Formatando resolução
+2025-06-05 07:26:53,502 - INFO - 127.0.0.1 - - [05/Jun/2025 07:26:53] "GET /ticket/R7856 HTTP/1.1" 200 -
+2025-06-05 07:26:54,029 - INFO - 127.0.0.1 - - [05/Jun/2025 07:26:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-05 07:26:55,315 - INFO - Pesquisando o ticket R7856...
+2025-06-05 07:26:55,504 - INFO - Pesquisa efetuada com sucesso.
+2025-06-05 07:26:55,712 - INFO - Consultando histórico do ticket
+2025-06-05 07:26:55,712 - INFO - Histórico disponibilizado.
+2025-06-05 07:26:55,713 - INFO - Formatando resolução
+2025-06-05 07:26:55,714 - INFO - 127.0.0.1 - - [05/Jun/2025 07:26:55] "GET /ticket/R7856 HTTP/1.1" 200 -

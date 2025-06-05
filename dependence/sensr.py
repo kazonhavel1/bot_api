@@ -2,6 +2,8 @@ import requests as r
 import logging
 import os
 import json
+import re
+from bs4 import BeautifulSoup
 from requests.structures import CaseInsensitiveDict
 from dotenv import load_dotenv
 
@@ -19,6 +21,43 @@ class consultaApi():
         self.ticketId = None
         #logging.info(f"mensagem informativa")
         #logging.error(f"mensagem de erro")
+    
+    def obterDadosResolucao(self,json):
+        html = str(json['notes'])
+
+        logging.info("Formatando resolução")
+        hr_index = html.find('<hr/>') #finaliza no primeiro hr
+        primeira_interacao_html = html[:hr_index].strip() #corta tudo após o hr deixando somente a primeira interação
+
+        match_data = re.search(r'\d{2}/\d{2}/\d{4} - \d{2}:\d{2}:\d{2}', primeira_interacao_html) #obter a data
+        data = match_data.group(0) if match_data else ''
+
+        match_nome = re.search(r'<strong>(.*?)</strong>', primeira_interacao_html) #buscar o nome do agente
+        nome = match_nome.group(1).strip() if match_nome else ''
+
+
+        soup = BeautifulSoup(primeira_interacao_html, 'html.parser') #Extrai o texto limpo
+        texto_completo = soup.get_text(separator="\n").strip()
+
+
+        indice_inicio_mensagem = texto_completo.lower().find("tempo gasto") #Encontra índice após "Tempo gasto"
+        if indice_inicio_mensagem != -1:
+            # Pega tudo após "tempo gasto", pulando os dois-pontos e tempo
+            texto_pos_tempo = texto_completo[indice_inicio_mensagem:]
+            # Pega a próxima linha útil
+            linhas = texto_pos_tempo.splitlines()
+            try:
+                idx = next(i for i, linha in enumerate(linhas) if "tempo gasto" in linha.lower()) #separa a string e busca o tempo gasto
+                mensagem = "\n".join(linhas[idx + 1:]).strip() #concatena todas as mensagens após o idx(tempo gasto)
+            except StopIteration:
+                mensagem = texto_completo.strip()
+        else:
+            mensagem = texto_completo.strip()
+
+        return mensagem.strip(),data,nome
+
+
+    
     def obterHistoricoTicket(self):
         url = os.getenv("linkhistoricoticket") + f"{self.ticketId}"
         headers = CaseInsensitiveDict()
@@ -37,9 +76,18 @@ class consultaApi():
             logging.info("Histórico disponibilizado.")
             data = response.json()
 
+            resolucao = {
+                "resolucao" : "",
+                "resolucao_data" : "",
+                "resolucao_agente" : ""
+            }
+
             comments = data.get('comments', [])
             email = data.get('email_tech') if data.get('email_tech') is not None else ""
             
+            if data['status'] in ("Resolved", "Closed"):
+                resolucao['resolucao'],resolucao["resolucao_data"],resolucao["resolucao_agente"] = self.obterDadosResolucao(data)
+
             if comments:
                 ultima_interacao = comments[-1]
                 self.ticketId = None
@@ -48,14 +96,15 @@ class consultaApi():
                     "ultima_interacao": ultima_interacao['description'].replace("<p>", "").replace("</p>", ""),
                     "ultima_interacao_data": ultima_interacao['dt_cad'],
                     "ultima_interacao_pessoa": ultima_interacao['name_create']
-                }
+                } | resolucao
             else:
+                self.ticketId = None
                 return{
                     "email_responsavel": email,
                     "ultima_interacao": "",
                     "ultima_interacao_data": "",
                     "ultima_interacao_pessoa": ""
-                }
+                } | resolucao
         else:
             logging.error(f"Erro {response.status_code} ao consultar o histórico: {response.text}")
             return {
@@ -90,6 +139,7 @@ class consultaApi():
                 self.ticketId = data[0]["id_tickets"]
                 responsavel = data[0]['grid_service_technician'] if data[0]['grid_service_technician'] is not None else ""
                 return {
+                    "id_ticket" : f"{data[0]['id_tickets']}",
                     "solicitante" : f"{data[0]['grid_user']}",
                     "status"  : f"{data[0]['grid_waiting']}",
                     "equipe" : f"{data[0]['grid_tech_group']}",
