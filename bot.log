@@ -542,3 +542,108 @@
 2025-06-05 07:26:55,712 - INFO - Histórico disponibilizado.
 2025-06-05 07:26:55,713 - INFO - Formatando resolução
 2025-06-05 07:26:55,714 - INFO - 127.0.0.1 - - [05/Jun/2025 07:26:55] "GET /ticket/R7856 HTTP/1.1" 200 -
+2025-06-06 10:12:27,698 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:12:27,699 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:12:41,728 - INFO - Obtendo um novo token
+2025-06-06 10:12:43,134 - INFO - Token obtido com sucesso.
+2025-06-06 10:12:43,134 - INFO - Pesquisando o ticket R1960...
+2025-06-06 10:12:44,202 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:12:44,625 - INFO - Consultando histórico do ticket
+2025-06-06 10:12:44,626 - INFO - Histórico disponibilizado.
+2025-06-06 10:12:44,630 - ERROR - Erro ao processar a requisição: consultaApi.removerImgs() takes 1 positional argument but 2 were given
+2025-06-06 10:12:44,631 - INFO - 127.0.0.1 - - [06/Jun/2025 10:12:44] "[35m[1mGET /ticket/R1960 HTTP/1.1[0m" 500 -
+2025-06-06 10:12:44,778 - INFO - 127.0.0.1 - - [06/Jun/2025 10:12:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-06 10:12:58,880 - INFO - Pesquisando o ticket R1960...
+2025-06-06 10:12:59,103 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:12:59,495 - INFO - Consultando histórico do ticket
+2025-06-06 10:12:59,497 - INFO - Histórico disponibilizado.
+2025-06-06 10:12:59,501 - ERROR - Erro ao processar a requisição: consultaApi.removerImgs() takes 1 positional argument but 2 were given
+2025-06-06 10:12:59,501 - INFO - 127.0.0.1 - - [06/Jun/2025 10:12:59] "[35m[1mGET /ticket/R1960 HTTP/1.1[0m" 500 -
+2025-06-06 10:12:59,735 - INFO - Pesquisando o ticket R1960...
+2025-06-06 10:12:59,944 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:13:00,347 - INFO - Consultando histórico do ticket
+2025-06-06 10:13:00,348 - INFO - Histórico disponibilizado.
+2025-06-06 10:13:00,352 - ERROR - Erro ao processar a requisição: consultaApi.removerImgs() takes 1 positional argument but 2 were given
+2025-06-06 10:13:00,352 - INFO - 127.0.0.1 - - [06/Jun/2025 10:13:00] "[35m[1mGET /ticket/R1960 HTTP/1.1[0m" 500 -
+2025-06-06 10:14:02,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:14:02,489 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:14:31,265 - INFO - Obtendo um novo token
+2025-06-06 10:14:31,613 - INFO - Token obtido com sucesso.
+2025-06-06 10:14:31,613 - INFO - Pesquisando o ticket R1960...
+2025-06-06 10:14:31,829 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:14:32,159 - INFO - Consultando histórico do ticket
+2025-06-06 10:14:32,160 - INFO - Histórico disponibilizado.
+2025-06-06 10:14:32,164 - INFO - 127.0.0.1 - - [06/Jun/2025 10:14:32] "GET /ticket/R1960 HTTP/1.1" 200 -
+2025-06-06 10:17:20,036 - INFO - Pesquisando o ticket R7946...
+2025-06-06 10:17:21,153 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:17:21,489 - INFO - Consultando histórico do ticket
+2025-06-06 10:17:21,490 - INFO - Histórico disponibilizado.
+2025-06-06 10:17:21,493 - INFO - Formatando resolução
+2025-06-06 10:17:21,512 - INFO - 127.0.0.1 - - [06/Jun/2025 10:17:21] "GET /ticket/R7946 HTTP/1.1" 200 -
+2025-06-06 10:17:23,152 - INFO - Pesquisando o ticket R7946...
+2025-06-06 10:17:23,472 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:17:23,727 - INFO - Consultando histórico do ticket
+2025-06-06 10:17:23,727 - INFO - Histórico disponibilizado.
+2025-06-06 10:17:23,728 - INFO - Formatando resolução
+2025-06-06 10:17:23,731 - INFO - 127.0.0.1 - - [06/Jun/2025 10:17:23] "GET /ticket/R7946 HTTP/1.1" 200 -
+2025-06-06 10:19:47,859 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:19:47,859 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:19:53,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:19:53,360 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:20:25,270 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:20:25,270 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:20:55,538 - INFO - Obtendo um novo token
+2025-06-06 10:20:56,452 - INFO - Token obtido com sucesso.
+2025-06-06 10:20:56,452 - INFO - Pesquisando o ticket R7946...
+2025-06-06 10:20:57,030 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:20:57,882 - INFO - Consultando histórico do ticket
+2025-06-06 10:20:57,882 - INFO - Histórico disponibilizado.
+2025-06-06 10:20:57,882 - INFO - Formatando resolução
+2025-06-06 10:20:57,884 - INFO - 127.0.0.1 - - [06/Jun/2025 10:20:57] "GET /ticket/R7946 HTTP/1.1" 200 -
+2025-06-06 10:22:39,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:22:39,446 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:23:05,831 - INFO - Obtendo um novo token
+2025-06-06 10:23:06,199 - INFO - Token obtido com sucesso.
+2025-06-06 10:23:06,199 - INFO - Pesquisando o ticket R7946...
+2025-06-06 10:23:06,729 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:23:07,924 - INFO - Consultando histórico do ticket
+2025-06-06 10:23:07,924 - INFO - Histórico disponibilizado.
+2025-06-06 10:23:07,924 - INFO - Formatando resolução
+2025-06-06 10:23:07,926 - INFO - 127.0.0.1 - - [06/Jun/2025 10:23:07] "GET /ticket/R7946 HTTP/1.1" 200 -
+2025-06-06 10:23:14,298 - INFO - Pesquisando o ticket R7946...
+2025-06-06 10:23:14,566 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:23:14,813 - INFO - Consultando histórico do ticket
+2025-06-06 10:23:14,813 - INFO - Histórico disponibilizado.
+2025-06-06 10:23:14,813 - INFO - Formatando resolução
+2025-06-06 10:23:14,815 - INFO - 127.0.0.1 - - [06/Jun/2025 10:23:14] "GET /ticket/R7946 HTTP/1.1" 200 -
+2025-06-06 10:24:01,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:24:01,524 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:24:32,505 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:24:32,505 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:24:35,724 - INFO - Obtendo um novo token
+2025-06-06 10:24:37,276 - INFO - Token obtido com sucesso.
+2025-06-06 10:24:37,276 - INFO - Pesquisando o ticket R7946...
+2025-06-06 10:24:37,975 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:24:38,874 - INFO - Consultando histórico do ticket
+2025-06-06 10:24:38,874 - INFO - Histórico disponibilizado.
+2025-06-06 10:24:38,875 - INFO - Formatando resolução
+2025-06-06 10:24:38,879 - INFO - 127.0.0.1 - - [06/Jun/2025 10:24:38] "GET /ticket/R7946 HTTP/1.1" 200 -
+2025-06-06 10:39:48,376 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 10:39:48,376 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 10:39:48,437 - INFO - Obtendo um novo token
+2025-06-06 10:39:48,802 - INFO - Token obtido com sucesso.
+2025-06-06 10:39:48,803 - INFO - Pesquisando o ticket R7946...
+2025-06-06 10:39:49,320 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 10:39:50,111 - INFO - Consultando histórico do ticket
+2025-06-06 10:39:50,111 - INFO - Histórico disponibilizado.
+2025-06-06 10:39:50,112 - INFO - Formatando resolução
+2025-06-06 10:39:50,116 - INFO - 127.0.0.1 - - [06/Jun/2025 10:39:50] "GET /ticket/R7946 HTTP/1.1" 200 -

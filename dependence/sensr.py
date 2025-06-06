@@ -22,6 +22,14 @@ class consultaApi():
         #logging.info(f"mensagem informativa")
         #logging.error(f"mensagem de erro")
     
+    
+    def removerImgs(self,html):
+        soup = BeautifulSoup(html, 'html.parser')
+        for img in soup.find_all('img'):
+            img.decompose()  # Aqui removo as imagens do texto para evitar erros no adaptative card
+        return str(soup)
+        
+    
     def obterDadosResolucao(self,json):
         html = str(json['notes'])
 
@@ -54,7 +62,7 @@ class consultaApi():
         else:
             mensagem = texto_completo.strip()
 
-        return mensagem.strip(),data,nome
+        return self.removerImgs(mensagem.strip()),data,nome
 
 
     
@@ -93,7 +101,7 @@ class consultaApi():
                 self.ticketId = None
                 return {
                     "email_responsavel": email,
-                    "ultima_interacao": ultima_interacao['description'].replace("<p>", "").replace("</p>", ""),
+                    "ultima_interacao": self.removerImgs(ultima_interacao['description'].replace("<p>", "").replace("</p>", "")),
                     "ultima_interacao_data": ultima_interacao['dt_cad'],
                     "ultima_interacao_pessoa": ultima_interacao['name_create']
                 } | resolucao
