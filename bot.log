@@ -647,3 +647,98 @@
 2025-06-06 10:39:50,111 - INFO - Histórico disponibilizado.
 2025-06-06 10:39:50,112 - INFO - Formatando resolução
 2025-06-06 10:39:50,116 - INFO - 127.0.0.1 - - [06/Jun/2025 10:39:50] "GET /ticket/R7946 HTTP/1.1" 200 -
+2025-06-06 11:39:06,366 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 11:39:06,367 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 11:39:19,649 - INFO - Obtendo um novo token
+2025-06-06 11:39:20,077 - INFO - Token obtido com sucesso.
+2025-06-06 11:39:20,078 - INFO - Pesquisando o ticket R7344...
+2025-06-06 11:39:20,393 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:20,724 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:20,724 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:20,724 - INFO - Formatando resolução
+2025-06-06 11:39:20,731 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:20] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-06 11:39:22,372 - INFO - Pesquisando o ticket R7344...
+2025-06-06 11:39:22,620 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:22,869 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:22,870 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:22,871 - INFO - Formatando resolução
+2025-06-06 11:39:22,873 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:22] "GET /ticket/R7344 HTTP/1.1" 200 -
+2025-06-06 11:39:25,249 - INFO - Pesquisando o ticket 312...
+2025-06-06 11:39:25,465 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:25,941 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:25,941 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:25,941 - INFO - Formatando resolução
+2025-06-06 11:39:25,944 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:25] "GET /ticket/312 HTTP/1.1" 200 -
+2025-06-06 11:39:26,206 - INFO - Pesquisando o ticket 312...
+2025-06-06 11:39:26,468 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:26,715 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:26,715 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:26,715 - INFO - Formatando resolução
+2025-06-06 11:39:26,716 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:26] "GET /ticket/312 HTTP/1.1" 200 -
+2025-06-06 11:39:31,084 - INFO - Pesquisando o ticket 21312...
+2025-06-06 11:39:31,814 - ERROR - Ticket 21312 não localizado.
+2025-06-06 11:39:31,815 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:31] "[31m[1mGET /ticket/21312 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:33,109 - INFO - Pesquisando o ticket 21312...
+2025-06-06 11:39:33,342 - ERROR - Ticket 21312 não localizado.
+2025-06-06 11:39:33,342 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:33] "[31m[1mGET /ticket/21312 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:33,579 - INFO - Pesquisando o ticket 21312...
+2025-06-06 11:39:33,788 - ERROR - Ticket 21312 não localizado.
+2025-06-06 11:39:33,789 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:33] "[31m[1mGET /ticket/21312 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:34,732 - INFO - Pesquisando o ticket 213...
+2025-06-06 11:39:34,940 - ERROR - Ticket 213 não localizado.
+2025-06-06 11:39:34,941 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:34] "[31m[1mGET /ticket/213 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:35,184 - INFO - Pesquisando o ticket 213...
+2025-06-06 11:39:35,397 - ERROR - Ticket 213 não localizado.
+2025-06-06 11:39:35,398 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:35] "[31m[1mGET /ticket/213 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:35,606 - INFO - Pesquisando o ticket 213...
+2025-06-06 11:39:35,823 - ERROR - Ticket 213 não localizado.
+2025-06-06 11:39:35,824 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:35] "[31m[1mGET /ticket/213 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:43,917 - INFO - Pesquisando o ticket R2133...
+2025-06-06 11:39:44,763 - ERROR - Ticket R2133 não localizado.
+2025-06-06 11:39:44,763 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:44] "[31m[1mGET /ticket/R2133 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:46,744 - INFO - Pesquisando o ticket R2133...
+2025-06-06 11:39:46,975 - ERROR - Ticket R2133 não localizado.
+2025-06-06 11:39:46,975 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:46] "[31m[1mGET /ticket/R2133 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:47,182 - INFO - Pesquisando o ticket R2133...
+2025-06-06 11:39:47,396 - ERROR - Ticket R2133 não localizado.
+2025-06-06 11:39:47,396 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:47] "[31m[1mGET /ticket/R2133 HTTP/1.1[0m" 400 -
+2025-06-06 11:39:51,086 - INFO - Pesquisando o ticket R7272...
+2025-06-06 11:39:51,323 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:51,550 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:51,550 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:51,551 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:51] "GET /ticket/R7272 HTTP/1.1" 200 -
+2025-06-06 11:39:52,842 - INFO - Pesquisando o ticket R7272...
+2025-06-06 11:39:53,090 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:53,430 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:53,431 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:53,433 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:53] "GET /ticket/R7272 HTTP/1.1" 200 -
+2025-06-06 11:39:53,798 - INFO - Pesquisando o ticket 231...
+2025-06-06 11:39:54,014 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:54,263 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:54,263 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:54,264 - INFO - Formatando resolução
+2025-06-06 11:39:54,266 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:54] "GET /ticket/231 HTTP/1.1" 200 -
+2025-06-06 11:39:54,624 - INFO - Pesquisando o ticket 231...
+2025-06-06 11:39:54,853 - INFO - Pesquisa efetuada com sucesso.
+2025-06-06 11:39:55,063 - INFO - Consultando histórico do ticket
+2025-06-06 11:39:55,064 - INFO - Histórico disponibilizado.
+2025-06-06 11:39:55,064 - INFO - Formatando resolução
+2025-06-06 11:39:55,066 - INFO - 127.0.0.1 - - [06/Jun/2025 11:39:55] "GET /ticket/231 HTTP/1.1" 200 -
+2025-06-06 11:40:55,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 11:40:55,136 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 11:40:59,728 - INFO - Obtendo um novo token
+2025-06-06 11:41:00,169 - ERROR - Erro 500 ao buscar o token. {"message":"E001","payload":[]}
+2025-06-06 11:41:00,170 - INFO - 127.0.0.1 - - [06/Jun/2025 11:41:00] "[31m[1mGET /ticket/231 HTTP/1.1[0m" 400 -
+2025-06-06 11:41:14,596 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 11:41:14,596 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 11:42:10,188 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-06-06 11:42:10,188 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 11:42:13,732 - INFO - Obtendo um novo token
+2025-06-06 11:42:14,106 - INFO - Token obtido com sucesso.
+2025-06-06 11:42:14,107 - INFO - Pesquisando o ticket 231...
+2025-06-06 11:42:14,406 - ERROR - Erro ao processar a requisição: invalid literal for int() with base 10: '{"statusFilter": [], "job": false, "filterColumns": {"grid_id": "231"}}'
+2025-06-06 11:42:14,407 - INFO - 127.0.0.1 - - [06/Jun/2025 11:42:14] "[35m[1mGET /ticket/231 HTTP/1.1[0m" 500 -

@@ -135,7 +135,6 @@ class consultaApi():
             })
             logging.info(f"Pesquisando o ticket {ticket}...")
             response = r.request("POST",url,headers=headers, data=payload)
-
             if response.status_code == 200 and response.text == "[]":
                 logging.error(f"Ticket {ticket} não localizado.")
                 return {

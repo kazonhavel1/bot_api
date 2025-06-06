@@ -35,12 +35,16 @@ def api_data(ticket):
                 historico = sensr.obterHistoricoTicket()                   
             response = dados | historico  
         else:
-            response = "Token inválido. Valide o log do servidor."
+            response = {
+            "error": "Token inválido. Valide o log do servidor."
+            }
             return jsonify(response), 400
         return jsonify(response)
     except Exception as e:
         logging.error(f"Erro ao processar a requisição: {e}")
-        return jsonify(f"Erro interno ao processar a requisição"), 500
+        return jsonify({
+            "error" : "Erro interno ao processar a requisição."
+        }), 500
 
 if __name__ == '__main__':
     app.run(host="127.0.0.1",port=8000,debug=False)
